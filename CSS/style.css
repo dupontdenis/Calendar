@@ -1,0 +1,49 @@
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cal {
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(7, 1cm);
+  grid-template-rows: repeat(6, 1cm);
+  grid-gap: 5px;
+}
+
+.cal li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  border: 1px solid;
+}
+
+div {
+  display: flex;
+}
+
+.completed {
+  color: rgb(196, 188, 188);
+}
+
+.today {
+  background: indianred;
+  color: white !important;
+  border-radius: 50%;
+  color: white;
+}
+
+.day {
+  color: #e5e4e2;
+}
+
+.dayOfCurrentMonth {
+  color: black important;
+}
+
+.dayOfPreviosMonth,
+.dayOfNextMonth {
+  color: #e5e4e2;
+}
