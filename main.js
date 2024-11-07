@@ -9,3 +9,6 @@ const ArrayOfObjects = transform(month);
 const html = template(ArrayOfObjects);
 
 render(html);
+
+//
+console.table(month);
