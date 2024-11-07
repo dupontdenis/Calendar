@@ -1,7 +1,7 @@
 // indiquer le mois 0=janvier
-export default function calendar(month = 0, year = 2024) {
+export default function calendar(month = 0, year = 2025) {
   const OFFSET_MONTH = new Map([
-    [1, 6], //lundi voir fevrier 2021
+    [1, 6], //lundi voir juillet 2024
     [2, 0],
     [3, 1],
     [4, 2],
